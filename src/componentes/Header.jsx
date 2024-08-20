@@ -26,6 +26,7 @@ export default function Header() {
             </ul>
         </header>
     </nav>
+    <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-08-16/8004_1920x50.png'></img>
     </>
     );
 }
