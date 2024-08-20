@@ -1,10 +1,13 @@
-import Header from '..componentes/Header'
-import { Link } from ''
+import Header from '../componentes/Header'
+import Footer from '../componentes/Footer';
+import "../globals.css";
 
 export default function Home() {
     return(
         <>
-        <h1>Home Legal :D</h1> 
+        <Header/>
+        <h1></h1> 
+        <Footer/>
         </>
     )
 }

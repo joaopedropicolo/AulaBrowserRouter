@@ -1,0 +1,75 @@
+body{
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  overflow-x: hidden; 
+}
+
+#top-bar{
+  background-color: #6900CC;
+  height: 40px;
+  justify-content: center;
+  height: 40px;
+}
+
+.img-zattini{
+  padding-top: 11px;
+  padding-left: 30px; 
+  height: 500px;
+}
+
+.img-logo{
+  padding-left: 10%;
+  padding-top: 15px;
+  width: 10%;
+  height: 10%;
+}
+
+nav{
+  position: relative;
+  background-color: #8200FF;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.search-input{
+  border-radius: 20px;
+  position: relative;
+  height: 36px;
+  width: 600px;
+}
+
+.search-form {
+  padding-right: 670px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.Listas {
+    list-style: none;
+    display: flex;
+  }
+
+.li-css{
+    color: rgb(255, 255, 255);
+}
+
+.Listas li {
+  padding: 6px 11px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
