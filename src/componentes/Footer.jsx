@@ -1,7 +1,7 @@
-export default function Footer(){
+export default function Footer({ Creditos }){
     return(
         <footer>
-            © 2024 João Pedro Fernandes Picolo. Todos os direitos reservados.
+            © 2024 Feito Por {Creditos}. Todos os direitos reservados.
         </footer>
     )
 }
