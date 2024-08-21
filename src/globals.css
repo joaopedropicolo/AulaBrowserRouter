@@ -67,6 +67,7 @@ nav{
 }
 
 #promo-header{
+  padding-top: 20px;
   height: auto;
   align-items: baseline;
   text-align: center;
@@ -144,7 +145,6 @@ gap: 10px;
   border-radius: 8px;
   padding: 16px;
   width: 300px;
-  box-shadow: 0 60px 40px rgba(0, 0, 0, 0.137);
   text-align: center;
 }
 
