@@ -40,9 +40,9 @@ nav{
 }
 
 #align-header{
-  flex-direction: column; /* Alinha os itens em coluna */
-  align-items: center;    /* Centraliza os itens horizontalmente */
-  justify-content: center; /* Centraliza os itens verticalmente */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-input{
@@ -109,6 +109,7 @@ justify-content: center;
 
 .bloco-produto:hover{ 
   transform: scale(1.1);
+  border: 1px solid #00ff4c;
 }
 
 .bloco-produtos div{

@@ -73,7 +73,7 @@ export default function Home() {
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/9101_04.jpg'></img>
         </div>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Produtos</h1>
+            <h1 id='title-produtos'>Home</h1>
             <ListarProdutos listaObjetos={listaObjetos} />
         </div>
         <br></br>

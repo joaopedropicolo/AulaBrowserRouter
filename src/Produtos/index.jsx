@@ -94,7 +94,10 @@ export default function Produtos(){
     return(
         <>
         <Header />
-        <ListarProdutos listaObjetos={listaObjetos} />
+        <div id='center-lista-produtos'>
+            <h1 id='title-produtos'>Produtos</h1>
+            <ListarProdutos listaObjetos={listaObjetos} />
+        </div>
         <Footer Creditos={"João Pedro Fernandes Picolo"} />
         </>
     )

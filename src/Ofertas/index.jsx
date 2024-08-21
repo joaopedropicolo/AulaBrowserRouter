@@ -61,12 +61,15 @@ export default function Ofertas(){
             nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             preco: 500
-        },
+        }
     ]);
     return(
         <>
         <Header />
-        <ListarProdutos listaObjetos={listaObjetos} />
+        <div id='center-lista-produtos'>
+            <h1 id='title-produtos'>Ofertas</h1>
+            <ListarProdutos listaObjetos={listaObjetos} />
+        </div>
         <Footer Creditos={"João Pedro Fernandes Picolo"} />
         </>
     )
