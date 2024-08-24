@@ -6,7 +6,7 @@ export default function Header() {
     <div id='align-header'>
     <div id='top-bar'>
         <div class="img-zattini">
-            <img src='https://static.netshoes.com.br/vue-components/6.58.0/netshoesbr/images/b6b347c335631107887e6d8a76a1ad39.svg'></img>
+            <img class="frete-img" src='https://static.netshoes.com.br/vue-components/6.58.0/netshoesbr/images/b6b347c335631107887e6d8a76a1ad39.svg'></img>
         </div>
     </div>
     <nav>
