@@ -54,25 +54,27 @@ nav{
   justify-content: center;
 }
 
-.search-input{
-  border-radius: 20px;
-  position: relative;
-  height: 36px;
-  width: 600px;
-}
-
 #image-objeto{
   width: 400px;
   height: auto;
 }
 
-.search-form {
-  padding-right: 670px;
-}
-
 #center-lista-produtos{
   text-align: center;
   text-transform: uppercase;
+}
+
+.promos-align-top{
+  padding-top: 20px;
+  height: auto;
+  align-items: baseline;
+  text-align: center;
+  clear: both;
+}
+
+.promos-align-top img {
+  padding: 0 10px;
+  border-radius: 80px;
 }
 
 .promos-align{
@@ -93,7 +95,7 @@ nav{
 
 .promos-align-2 img {
   padding: 0 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .promos-align img {
@@ -108,6 +110,24 @@ nav{
     text-transform: uppercase;
     margin-bottom: 24px;
     padding-bottom: 0;
+}
+
+.promos-align-2 img{
+  transition: transform 0.3s ease;
+}
+
+.promos-align img{
+  transition: transform 0.3s ease;
+}
+
+.promos-align-2 img:hover{ 
+  transform: scale(1.065);
+  border: 1px solid #4c00ff;
+}
+
+.promos-align img:hover{ 
+  transform: scale(1.065);
+  border: 2px solid #4c00ff;
 }
 
 #align-last-image{
@@ -142,7 +162,7 @@ text-decoration: underline;
 font-size: 24px;
 }
 
-#title-produtos{
+.title-produtos{
   color: #6900CC;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -287,11 +307,15 @@ footer {
   #align-last-image{
     display: none;
   }
-  .promos-align-2{
-    display: none;
-  }
+
   .promos-align{
-    display: none;
+    padding-top: 60%;
+    padding-bottom: 10%;
+  }
+
+  .promos-align-2{
+    padding-top: 60%;
+    padding-bottom: 10%;
   }
 
 }
@@ -303,16 +327,36 @@ footer {
   #align-last-image{
     display: none;
   }
-  .promos-align-2{
+
+  #title-produtos{
     display: none;
   }
+
   .promos-align{
-    display: none;
+    padding-top: 60%;
+    padding-bottom: 10%;
+  }
+
+  .promos-align-2{
+    padding-top: 60%;
+    padding-bottom: 10%;
   }
 }
 
 @media (max-width: 480px) {
   .bloco-produtos div {
     width: 100%;
+  }
+
+  .promos-align{
+    display: none;
+  }
+
+  .promos-align-2{
+    display: none;
+  }
+
+  .display-produtos{
+    display: none;
   }
 }

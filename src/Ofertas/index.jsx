@@ -13,7 +13,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -22,7 +21,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -31,7 +29,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -40,7 +37,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -49,7 +45,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -58,7 +53,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -67,7 +61,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -76,7 +69,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -85,7 +77,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -94,7 +85,6 @@ export default function Ofertas(){
             image: "https://static.netshoes.com.br/produtos/tenis-nike-air-max-excee-masculino/28/HZM-3176-028/HZM-3176-028_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         }
     ]);
@@ -103,26 +93,28 @@ export default function Ofertas(){
         <Header/>
         <div id='center-carousel'>
         <Carousel infiniteLoop useKeyboardArrows autoPlay showArrows={true} showStatus={false} showThumbs={false} dynamicHeight>
-                <div class="img-carousel">
+                <div className="img-carousel">
                     <img src="https://pro2-bar-s3-cdn-cf.myportfolio.com/8fbe7dae1a177388dfa06cf3db3bc9d6/b70034ea-c029-4424-b600-ad5a0a16b0a8_rw_1200.jpg?h=ecdfb626b1b0649b1d7b539d361f4ffc" />
                 </div>
-                <div class="img-carousel">
+                <div className="img-carousel">
                     <img src="https://www.feevale.br/Comum/midias/13f350f4-e72a-49dd-af58-e3df94923a10/1920x450/banner_topo_site_1920x450-compressed.jpg" />
                 </div>
         </Carousel>
         </div>
-        <div class='promos-align'>
+        <div className='promos-align-top'>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/527_01.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/1686_02.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/1596_03.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/9101_04.jpg'></img>
         </div>
+        <div className='display-produtos'>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Em Destaque</h1>
+            <h1 className='title-produtos'>Em Destaque:</h1>
             <ListarProdutos listaObjetos={listaObjetos.sort().slice(0, 3)} />
+            </div>
         </div>
         <br></br>
-        <div class='promos-align-2'>
+        <div className='promos-align-2'>
             <h1 id='promos-aling-h1'>NAVEGUE POR MARCAS:</h1>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2023-09-21/405_adidas.png'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2023-09-21/7286_nike.png'></img>
@@ -133,8 +125,8 @@ export default function Ofertas(){
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2023-09-21/3769_oakley.png'></img>
         </div>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Em Alta:</h1>
-            <ListarProdutos listaObjetos={listaObjetos.sort().slice(-7)} />
+            <h1 className='title-produtos'>Em Alta:</h1>
+            <ListarProdutos listaObjetos={listaObjetos.sort()} />
         </div>
         <br></br>
         <br></br>

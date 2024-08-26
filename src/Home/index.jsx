@@ -86,29 +86,31 @@ export default function Home() {
         <Header/>
         <div id='center-carousel'>
         <Carousel infiniteLoop useKeyboardArrows autoPlay showArrows={true} showStatus={false} showThumbs={false} dynamicHeight>
-                <div class="img-carousel">
+                <div className="img-carousel">
                     <img src="https://i0.wp.com/prdnetshoes.wpcomstaging.com/wp-content/uploads/2024/06/novo-posicionamento-logomarca-e-slogan-da-netshoes.png?fit=1050%2C450&ssl=1" />
                 </div>
-                <div class="img-carousel">
+                <div className="img-carousel">
                     <img src="https://i0.wp.com/prdnetshoes.wpcomstaging.com/wp-content/uploads/2021/02/aniversario21_netshoes_20210211.jpeg?fit=820%2C312&ssl=1" />
                 </div>
-                <div class="img-carousel">
+                <div className="img-carousel">
                     <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3b60b035762415.5702ff8b7f02f.jpg" />
                 </div>
         </Carousel>
         </div>
-        <div class='promos-align'>
+        <div className='promos-align-top'>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/527_01.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/1686_02.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/1596_03.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/9101_04.jpg'></img>
         </div>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Home</h1>
+        <h1 className='title-produtos'>HOME</h1>
+            <div className='display-produtos'>
             <ListarProdutos listaObjetos={listaObjetos.sort().slice(0, 3)} />
+            </div>
         </div>
         <br></br>
-        <div class='promos-align'>
+        <div className='promos-align'>
             <h1 id='promos-aling-h1'>NA NETSHOES TAMBÉM TEM:</h1>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/2195_1_1_tnis.png'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/4786_1_2_chuteiras.png'></img>
@@ -119,11 +121,13 @@ export default function Home() {
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/9371_1_7_mochilas.png'></img>
         </div>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Mais vistos</h1>
+            <div className='display-produtos'>
+            <h1 className='title-produtos'>Mais vistos</h1>
             <ListarProdutos listaObjetos={listaObjetos.sort().slice(-3)} />
+            </div>
         </div>
-        <div class='promos-align-2'>
-            <h1 id='promos-aling-h1'>NAVEGUE POR MARCAS:</h1>
+        <div className='promos-align-2'>
+            <h1 className='title-produtos'>NAVEGUE POR MARCAS:</h1>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2023-09-21/405_adidas.png'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2023-09-21/7286_nike.png'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2023-09-21/5274_olympikus.png'></img>
@@ -133,13 +137,8 @@ export default function Home() {
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2023-09-21/3769_oakley.png'></img>
         </div>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Confira também</h1>
-            <ListarProdutos listaObjetos={listaObjetos.sort().slice(-3)} />
-        </div>
-        <div id='align-last-image'>
-            <div class='promos-align'>
-                <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-08-19/6470_desk_fashionstyle.png'></img>
-            </div>
+            <h1 className='title-produtos'>Confira também</h1>     
+            <ListarProdutos listaObjetos={listaObjetos.sort().slice(-5)} />        
         </div>
         <br></br>
         <br></br>

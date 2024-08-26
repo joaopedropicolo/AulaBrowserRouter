@@ -13,7 +13,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -22,7 +21,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -31,7 +29,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -45,7 +42,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -54,7 +50,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -63,7 +58,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -72,7 +66,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -81,7 +74,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -90,7 +82,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -99,7 +90,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -108,7 +98,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -117,7 +106,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -126,7 +114,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         },
         {
@@ -135,7 +122,6 @@ export default function Produtos(){
             image: "https://static.netshoes.com.br/produtos/tenis-puma-skyrocket-lite-unissex/58/PI3-1812-058/PI3-1812-058_detalhe1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
-            desconto: true,
             preco: 500
         }
     ]);
@@ -145,27 +131,29 @@ export default function Produtos(){
         <Header/>
         <div id='center-carousel'>
         <Carousel infiniteLoop useKeyboardArrows autoPlay showArrows={true} showStatus={false} showThumbs={false} dynamicHeight>
-                <div class="img-carousel">
+                <div className="img-carousel">
                     <img src="https://www.mundorh.com.br/wp-content/uploads/2022/11/Netshoes-Black-Friday.jpg.webp" />
                 </div>
-                <div class="img-carousel">
+                <div className="img-carousel">
                     <img src="https://i0.wp.com/prdnetshoes.wpcomstaging.com/wp-content/uploads/2021/11/blackfriday_20211125.png?fit=1918%2C504&ssl=1" />
                 </div>
         </Carousel>
         </div>
-        <div class='promos-align'>
+        <div className='promos-align'>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/527_01.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/1686_02.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/1596_03.jpg'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-07-16/9101_04.jpg'></img>
         </div>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Em Destaque</h1>
+        <div className='display-produtos'>
+            <h1 className='title-produtos'>Em Destaque</h1>
             <ListarProdutos listaObjetos={listaObjetos.sort().slice(0, 3)} />
         </div>
+        </div>
         <br></br>
-        <div class='promos-align-2'>
-            <h1 id='promos-aling-h1'>NA NETSHOES TAMBÉM TEM:</h1>
+        <div className='promos-align-2'>
+        <h1 className='title-produtos'>NA NETSHOES TAMBÉM TEM:</h1>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/2195_1_1_tnis.png'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/4786_1_2_chuteiras.png'></img>
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/9042_1_3_camisastimes.png'></img>
@@ -175,8 +163,10 @@ export default function Produtos(){
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/9371_1_7_mochilas.png'></img>
         </div>
         <div id='center-lista-produtos'>
-            <h1 id='title-produtos'>Clientes também compram:</h1>
-            <ListarProdutos listaObjetos={listaObjetos.sort().slice(-12)} />
+        <div className='display-produtos'>
+            <h1 className='title-produtos'>Clientes também compram:</h1>
+            <ListarProdutos listaObjetos={listaObjetos.sort()} />
+            </div>
         </div>
         <br></br>
         <br></br>
