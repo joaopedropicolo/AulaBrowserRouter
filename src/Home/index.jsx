@@ -10,72 +10,72 @@ export default function Home() {
     const [listaObjetos, setListaObjetos] = useState([
         {
             id: 1,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            nome: "Sandália crocs crocband cars lightning red - Vermelho",
+            image: "https://static.netshoes.com.br/produtos/sandalia-crocs-crocband-cars-lightning-red/16/FDT-6343-016/FDT-6343-016_zoom1.jpg",
             tipo: 'Masculino',
-            categoria: ['Masculino, Tênis'],
+            categoria: ['Masculino, Tênis, Infantil'],
             preco: 500
         },
         {
             id: 2,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            nome: "Bota Couro Bull Terrier Phoenix Masculina",
+            image: "https://static.netshoes.com.br/produtos/bota-couro-bull-terrier-phoenix-masculina/64/A52-3685-264/A52-3685-264_detalhe1.jpg",
             tipo: 'Masculino',
-            categoria: ['Masculino, Tênis'],
+            categoria: ['Masculino, Bota'],
             preco: 500
         },
         {
             id: 3,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            nome: "Tênis Infantil Disney Stich Menina",
+            image: "https://static.netshoes.com.br/produtos/tenis-infanil-disney-stich-menina/91/QPV-2059-791/QPV-2059-791_detalhe1.jpg",
             tipo: 'Masculino',
-            categoria: ['Masculino, Tênis'],
+            categoria: ['Masculino, Tênis, Infantil'],
             preco: 500
         },
         {
             id: 4,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
-            tipo: 'Masculino',
-            categoria: ['Masculino, Tênis'],
+            nome: "Tênis Nike Downshifter 13 Feminino",
+            image: "https://static.netshoes.com.br/produtos/tenis-nike-downshifter-13-feminino/06/JD8-6467-006/JD8-6467-006_zoom1.jpg",
+            tipo: 'Feminino',
+            categoria: ['Feminino, Tênis'],
             preco: 500
         },
         {
             id: 5,
             nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            image: "https://static.netshoes.com.br/produtos/tenis-under-armour-charged-first/72/39W-3305-172/39W-3305-172_zoom1.jpg",
             tipo: 'Masculino',
-            categoria: ['Masculino, Tênis'],
+            categoria: ['Masculino, Tênis, Infantil'],
             preco: 500
         },
         {
             id: 6,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            nome: "Tênis Mizuno Wave Titan 2 Masculino",
+            image: "https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2-masculino/93/2FU-6367-793/2FU-6367-793_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
             preco: 500
         },
         {
             id: 7,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            nome: "Sandália Crocs Croband Clog",
+            image: "https://static.netshoes.com.br/produtos/sandalia-crocs-croband-clog/88/FDT-0203-088/FDT-0203-088_detalhe1.jpg",
             tipo: 'Masculino',
-            categoria: ['Masculino, Tênis'],
+            categoria: ['Masculino, Crocs'],
             preco: 500
         },
         {
             id: 8,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            nome: "Tênis Adidas Response Runner",
+            image: "https://static.netshoes.com.br/produtos/tenis-adidas-response-runner/26/FB9-3696-026/FB9-3696-026_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
             preco: 500
         },
         {
             id: 9,
-            nome: "Tênis Masculino Asics Gel-Thunderlight - Preto+Laranja",
-            image: "https://static.netshoes.com.br/produtos/tenis-masculino-asics-gel-thunderlight/50/2FW-0900-050/2FW-0900-050_zoom1.jpg",
+            nome: "Tênis Mizuno Wave Titan 2 Masculino",
+            image: "https://static.netshoes.com.br/produtos/tenis-mizuno-wave-titan-2-masculino/06/2FU-6367-006/2FU-6367-006_zoom1.jpg",
             tipo: 'Masculino',
             categoria: ['Masculino, Tênis'],
             preco: 500

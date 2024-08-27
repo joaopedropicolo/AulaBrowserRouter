@@ -163,10 +163,8 @@ export default function Produtos(){
         <img src='https://static.netshoes.com.br/bnn/l_netshoes/2024-04-19/9371_1_7_mochilas.png'></img>
         </div>
         <div id='center-lista-produtos'>
-        <div className='display-produtos'>
             <h1 className='title-produtos'>Clientes também compram:</h1>
             <ListarProdutos listaObjetos={listaObjetos.sort()} />
-            </div>
         </div>
         <br></br>
         <br></br>
