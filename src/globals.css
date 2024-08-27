@@ -302,7 +302,6 @@ footer {
 }
 
 @media (max-width: 1000px) {
-
   #align-last-image{
     display: none;
   }
@@ -320,9 +319,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .bloco-produtos div {
-    width: calc(50% - 12px);
-  }
   #align-last-image{
     display: none;
   }
@@ -343,10 +339,14 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .bloco-produtos div {
-    width: 100%;
-  }
-
+  .Listas li {
+    color: rgb(255, 255, 255);
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+    }
+  
   .promos-align{
     display: none;
   }
